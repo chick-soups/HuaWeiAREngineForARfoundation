@@ -1,0 +1,10 @@
+{
+    "name": "UnityAREngine",
+    "version": "1.0.0",
+    "libraryName": "UnityAREngine",
+    "inputs": [
+        {
+            "id": "AREngine-Input"
+        }
+    ]
+}

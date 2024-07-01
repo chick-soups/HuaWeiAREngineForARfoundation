@@ -1,0 +1,23 @@
+{
+    "name": "Unity.XR.HuaWeiAREngine.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:73c9598461ace1e428e0308a441e44f6",
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:8b0c2853a940d4fd9979bac438eb5bf3",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:dc960734dc080426fa6612f1c5fe95f3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

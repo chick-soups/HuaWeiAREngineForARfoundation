@@ -1,0 +1,27 @@
+{
+    "name": "Unity.XR.HuaWeiAREngine.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:92703082f92b41ba80f0d6912de66115",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "UNITY_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

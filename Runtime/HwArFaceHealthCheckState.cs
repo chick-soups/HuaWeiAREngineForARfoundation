@@ -1,0 +1,22 @@
+namespace UnityEngine.XR.AREngine
+{
+    public enum HwArFaceHealthCheckState
+    {
+        HWAR_DETECT_FAILED = -1,
+        HWAR_DETECT_SUCCESS = 0,
+        HWAR_NO_AVAILABLE_HEALTH_DATA = 1,
+        HWAR_FACE_WITH_EXPRESSION = 10,
+        HWAR_IMAGE_SIZE_WRONG = 20,
+        HWAR_FACE_NOT_IN_ELLIPSE = 21,
+        HWAR_FACE_MOTION_TOO_MUCH = 22,
+        HWAR_EFFECTIVE_PIXEEL_TOO_LOW = 23,
+        HWAR_LIGHT_TOO_DARK = 24,
+        HWAR_LIGHT_NOT_UNIFORM = 25,
+        HWAR_POSE_TOO_LARGE = 26,
+        HWAR_SIGNAL_CAPTURE_FAILED = 27,
+        HWAR_SIGNAL_NAN = 28,
+        HWAR_FINGER_OUTSIDE_CAMERA = 29,
+        HWAR_FINGER_SIGNAL_UNAVAILABLE = 30,
+        HWAR_FRAUD_FACE = 31,
+    }
+}

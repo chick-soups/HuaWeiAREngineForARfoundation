@@ -1,0 +1,21 @@
+using System;
+
+namespace UnityEngine.XR.AREngine
+{
+    [Flags]
+    public enum HwArFaceDetectMode
+    {
+        HwAr_HEALTH_ENABLE_HEART_RATE = 0x01,
+        HwAr_HEALTH_ENABLE_BREATH_RATE = 0x02,
+        HwAr_HEALTH_ENABLE_LIVE_DETECTION = 0x04,
+        HwAr_HEALTH_ENABLE_DEFAULT = HwAr_HEALTH_ENABLE_HEART_RATE |
+            HwAr_HEALTH_ENABLE_BREATH_RATE |
+            HwAr_HEALTH_ENABLE_LIVE_DETECTION,
+        HwAr_HEALTH_ENABLE_SP02 = 0x08,
+        HwAr_HEALTH_ENABLE_STRESS = 0x10,
+        HwAr_FACE_ENABLE_MESH = 0x100,
+        HwAr_FACE_ENABLE_BLEND_SHAPE = 0x200,
+        HwAr_FACE_ENABLE_DEFAULT = HwAr_FACE_ENABLE_MESH | HwAr_FACE_ENABLE_BLEND_SHAPE,
+        HwAr_FACE_ENABLE_MULTIFACE = 0x800,
+    }
+}
